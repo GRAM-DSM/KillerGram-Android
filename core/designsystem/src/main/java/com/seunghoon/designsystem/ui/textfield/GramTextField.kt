@@ -36,7 +36,7 @@ import com.seunghoon.designsystem.ui.theme.GramTypography
 import kotlinx.coroutines.delay
 
 @Composable
-private fun GramTextField(
+fun GramTextField(
     modifier: Modifier = Modifier,
     value: String,
     onValueChange: (String) -> Unit,
