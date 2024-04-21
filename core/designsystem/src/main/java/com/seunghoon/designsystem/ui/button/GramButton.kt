@@ -24,6 +24,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.seunghoon.designsystem.ui.theme.GramColors
 import com.seunghoon.designsystem.ui.theme.GramTypography
+import com.seunghoon.designsystem.utils.gramClickable
 import com.seunghoon.designsystem.utils.keyboardAsState
 
 @Composable
@@ -34,7 +35,6 @@ fun GramBasicButton(
     enabled: Boolean = true,
     isKeyboardInteractionMode: Boolean = false,
 ) {
-    val interactionSource = remember { MutableInteractionSource() }
     val backgroundColor by animateColorAsState(
         targetValue = if (enabled) GramColors.Main
         else GramColors.Gray1000,
@@ -60,11 +60,6 @@ fun GramBasicButton(
         else 8.dp,
         label = "",
     )
-    val scale by animateFloatAsState(
-        targetValue = if (interactionSource.collectIsPressedAsState().value) 0.97f
-        else 1f,
-        label = "",
-    )
 
     Box(
         modifier = modifier
@@ -73,12 +68,7 @@ fun GramBasicButton(
                 horizontal = horizontalPadding,
                 vertical = verticalPadding,
             )
-            .scale(scale)
-            .clickable(
-                interactionSource = interactionSource,
-                onClick = onClick,
-                indication = null,
-            )
+            .gramClickable(onClick = onClick)
             .clip(RoundedCornerShape(cornerShape))
             .background(backgroundColor)
             .padding(vertical = 16.dp),
