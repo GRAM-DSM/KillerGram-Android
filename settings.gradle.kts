@@ -14,7 +14,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "ProjectGenerator"
+rootProject.name = "killergram"
 include(":app")
 include(":core:designsystem")
 include(":core:network")
