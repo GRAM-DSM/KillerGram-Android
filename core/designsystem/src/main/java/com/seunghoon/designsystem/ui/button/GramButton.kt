@@ -85,21 +85,7 @@ fun GramBasicButton(
 @Preview(showBackground = true)
 @Composable
 private fun GramBasicButtonPreview() {
-    /*var enabled by remember { mutableStateOf(true) }
-
-    LaunchedEffect(Unit) {
-        while (true) {
-            delay(3000)
-            enabled = !enabled
-        }
-    }*/
-
     Column {
-        /*GramTextField(
-            value = "",
-            onValueChange = {}, hint = ""
-        )
-        Spacer(modifier = Modifier.weight(1f))*/
         GramBasicButton(
             onClick = {},
             text = "로그인",
