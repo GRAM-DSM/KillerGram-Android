@@ -13,10 +13,12 @@ import androidx.compose.ui.draw.scale
 @Composable
 fun Modifier.gramClickable(
     onClick: () -> Unit,
+    pressDepth: Float = 0.97f,
+    enabled: Boolean = true,
 ): Modifier {
     val interactionSource = remember { MutableInteractionSource() }
     val scale by animateFloatAsState(
-        targetValue = if (interactionSource.collectIsPressedAsState().value) 0.97f
+        targetValue = if (interactionSource.collectIsPressedAsState().value) pressDepth
         else 1f,
         label = "",
     )
@@ -25,5 +27,6 @@ fun Modifier.gramClickable(
         onClick = onClick,
         interactionSource = interactionSource,
         indication = null,
+        enabled = enabled,
     )
 }
