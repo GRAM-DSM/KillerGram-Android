@@ -6,7 +6,7 @@ plugins {
 apply<CommonGradlePlugin>()
 
 android {
-    namespace = "com.seunghoon.core.data"
+    namespace = "gram.killergram.core.data"
 }
 
 dependencies {

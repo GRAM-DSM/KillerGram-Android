@@ -11,7 +11,7 @@ val properties = Properties()
 properties.load(rootProject.file("./local.properties").inputStream())
 
 android {
-    namespace = "com.seunghoon.core.network"
+    namespace = "gram.killergram.core.network"
 
     buildTypes {
         release {

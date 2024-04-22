@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.seunghoon.generator"
+    namespace = "gram.killergram.app"
     compileSdk = ProjectProperties.COMPILE_SDK
 
     defaultConfig {

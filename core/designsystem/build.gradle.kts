@@ -8,7 +8,7 @@ apply<CommonGradlePlugin>()
 apply<ComposeGradlePlugin>()
 
 android {
-    namespace = "com.seunghoon.core.designsystem"
+    namespace = "gram.killergram.core.designsystem"
 }
 
 dependencies {
