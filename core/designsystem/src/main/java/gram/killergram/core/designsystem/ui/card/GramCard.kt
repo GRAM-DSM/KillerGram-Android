@@ -8,8 +8,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.seunghoon.designsystem.ui.theme.GramColors
-import com.seunghoon.designsystem.utils.gramClickable
+import gram.killergram.core.designsystem.ui.theme.GramColors
+import gram.killergram.core.designsystem.utils.gramClickable
 
 @Composable
 fun GramCard(

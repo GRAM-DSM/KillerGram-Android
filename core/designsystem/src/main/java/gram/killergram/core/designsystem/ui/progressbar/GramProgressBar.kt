@@ -22,7 +22,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.seunghoon.designsystem.ui.theme.GramColors
+import gram.killergram.core.designsystem.ui.theme.GramColors
 import kotlinx.coroutines.delay
 
 @Composable

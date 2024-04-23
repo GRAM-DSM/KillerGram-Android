@@ -1,6 +1,6 @@
 package gram.killergram.core.designsystem.ui.icon
 
-import com.seunghoon.core.designsystem.R
+import gram.killergram.core.designsystem.R
 
 object GramIcons {
     val BADMINTON = R.drawable.ic_badminton
@@ -19,4 +19,5 @@ object GramIcons {
     val CLOSE = R.drawable.ic_close
     val OPTION = R.drawable.ic_option
     val REFRESH = R.drawable.ic_refresh
+    val CHECK = R.drawable.ic_check
 }

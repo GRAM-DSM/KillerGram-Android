@@ -8,7 +8,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.TextUnitType
 import androidx.compose.ui.unit.sp
-import com.seunghoon.core.designsystem.R
+import gram.killergram.core.designsystem.R
 
 // 디자인에 맞는 폰트 추가해서 사용
 private val PretendardFontFamily = FontFamily(

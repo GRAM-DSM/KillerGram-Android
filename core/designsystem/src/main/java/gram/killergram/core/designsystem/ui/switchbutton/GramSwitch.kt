@@ -23,7 +23,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.seunghoon.designsystem.ui.theme.GramColors
+import gram.killergram.core.designsystem.ui.theme.GramColors
 
 @Composable
 fun GramSwitch(

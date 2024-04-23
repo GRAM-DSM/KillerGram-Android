@@ -31,8 +31,8 @@ import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.seunghoon.designsystem.ui.theme.GramColors
-import com.seunghoon.designsystem.ui.theme.GramTypography
+import gram.killergram.core.designsystem.ui.theme.GramColors
+import gram.killergram.core.designsystem.ui.theme.GramTypography
 import kotlinx.coroutines.delay
 
 @Composable

@@ -16,10 +16,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.seunghoon.designsystem.ui.theme.GramColors
-import com.seunghoon.designsystem.ui.theme.GramTypography
-import com.seunghoon.designsystem.utils.gramClickable
-import com.seunghoon.designsystem.utils.keyboardAsState
+import gram.killergram.core.designsystem.ui.theme.GramColors
+import gram.killergram.core.designsystem.ui.theme.GramTypography
+import gram.killergram.core.designsystem.utils.gramClickable
+import gram.killergram.core.designsystem.utils.keyboardAsState
 
 @Composable
 fun GramBasicButton(

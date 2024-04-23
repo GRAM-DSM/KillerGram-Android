@@ -17,9 +17,9 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.seunghoon.core.designsystem.R
-import com.seunghoon.designsystem.ui.theme.GramColors
-import com.seunghoon.designsystem.utils.gramClickable
+import gram.killergram.core.designsystem.ui.icon.GramIcons
+import gram.killergram.core.designsystem.ui.theme.GramColors
+import gram.killergram.core.designsystem.utils.gramClickable
 
 @Composable
 fun GramCheckBox(
@@ -51,7 +51,7 @@ fun GramCheckBox(
         contentAlignment = Alignment.Center,
     ) {
         Icon(
-            painter = painterResource(id = R.drawable.ic_check),
+            painter = painterResource(id = GramIcons.CHECK),
             contentDescription = null,
             tint = tintColor,
         )
