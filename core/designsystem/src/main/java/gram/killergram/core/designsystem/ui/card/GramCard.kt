@@ -29,9 +29,8 @@ fun GramCard(
             ),
         color = GramColors.Gray1100,
         shape = RoundedCornerShape(8.dp),
-    ) {
-
-    }
+        content = content,
+    )
 }
 
 @Preview(showBackground = true)
